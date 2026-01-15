@@ -1,2 +1,8 @@
-# rdmmaths-online-education-platform
-Exported from Caffeine project: RDMmaths Online Education Platform
+## RDMmaths Online Education Platform
+
+To run app build and run docker image:
+
+```
+docker build -t app .
+docker run -it --network host app
+```

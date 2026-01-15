@@ -1,0 +1,19 @@
+{
+  "frontend/src/App.tsx": "Main application component with TanStack Router setup including new coin wallet and leaderboard routes, authentication handling, profile setup modal, and theme provider integration.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for all backend operations including admin key management (setAdminKey, verifyAdminKey), courses, enrollments, reviews, instructors, live classes, Stripe configuration, and payment processing with admin key parameters.",
+  "frontend/src/components/Header.tsx": "Responsive header component with RDM logo, navigation including new \"My RDMcoins\" and \"Leaderboard\" links, authentication button, mobile menu, and admin access for authorized users.",
+  "frontend/src/components/Footer.tsx": "Footer component with RDM logo branding, quick links, contact information, and caffeine.ai attribution.",
+  "frontend/src/components/ProfileSetupModal.tsx": "Modal dialog for first-time user profile setup requiring name and email input.",
+  "frontend/src/pages/HomePage.tsx": "Landing page with hero section featuring RDM logo, feature highlights, featured courses grid using type-safe routing, and call-to-action sections.",
+  "frontend/src/pages/CoursesPage.tsx": "Course catalog page with search, filtering by category/difficulty/price, tabbed view for all/free/paid courses, and type-safe navigation to course details.",
+  "frontend/src/pages/CourseDetailPage.tsx": "Detailed course view with enrollment/purchase functionality, instructor info, curriculum, prerequisites, reviews, and rating system, with updated Tailwind v3 classes (shrink-0).",
+  "frontend/src/pages/DashboardPage.tsx": "Student dashboard displaying enrolled courses with type-safe routing, progress tracking, upcoming live classes, and learning statistics, with updated Tailwind v3 classes (shrink-0).",
+  "frontend/src/pages/PaymentSuccessPage.tsx": "Payment success page that processes course enrollment after successful Stripe payment and redirects to dashboard.",
+  "frontend/src/pages/PaymentFailurePage.tsx": "Payment failure page with options to retry or return to course browsing.",
+  "frontend/src/pages/AdminPage.tsx": "Admin dashboard with secure admin key authentication, Stripe setup, course/instructor/live class management, and new Coin Management section for viewing user balances and adjusting coins.",
+  "frontend/src/index.css": "Global styles with OKLCH color system featuring purple/blue theme for both light and dark modes.",
+  "frontend/index.html": "HTML entry point with RDM logo favicon and page title.",
+  "frontend/src/pages/AdminLoginPage.tsx": "Dedicated admin login page with secure admin key verification, handling both initial key setup and subsequent authentication, with RDM branding and proper error handling.",
+  "frontend/src/pages/CoinWalletPage.tsx": "Coin wallet dashboard page displaying user's RDMcoin balance, level progress with progress bar, earning methods, and transaction history with filtering tabs (uses mock data until backend is implemented).",
+  "frontend/src/pages/LeaderboardPage.tsx": "Global leaderboard page showing top 20 users ranked by coin count with podium display for top 3, user avatars, levels, and detailed rankings list (uses mock data until backend is implemented)."
+}
